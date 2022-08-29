@@ -1,0 +1,156 @@
+/* index.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+:focus {
+  outline: 0;
+}
+
+.App {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+  margin: 130px 0 40px;
+  position: relative;
+}
+h1 {
+  text-rendering: optimizeLegibility;
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 100px;
+  font-weight: 100;
+  position: absolute;
+  text-align: center;
+  top: -155px;
+  width: 100%;
+}
+
+form input {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  color: inherit;
+  padding: 6px;
+  border: 1px solid #999;
+  box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 16px 16px 16px 60px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.03);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li button.check-true {
+  background-color: #fefefe;
+  border: 1px solid green;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  padding: 3px;
+}
+
+ul li button.check-false {
+  padding: 3px;
+  background-color: #fefefe;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+ul li label {
+  display: block;
+  width: 100%;
+  padding: 0px 15px;
+}
+ul li label.line {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.destroy {
+  color: #fefefe;
+  width: 30px;
+  height: 30px;
+}
+ul li:hover .destroy {
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e6e6e6;
+  color: #777;
+  height: 20px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+footer div button {
+  margin: 0.7em;
+}
+
+button:hover {
+  cursor: pointer;
+}
